@@ -39,6 +39,15 @@ source_suffix = {
     '.md': 'markdown',
 }
 
+# 启用 'Edit on GitHub' 链接
+html_context = {
+    "display_github": True,  # 显示 "Edit on GitHub" 按钮
+    "github_user": "yuqichen123",  # GitHub 用户名
+    "github_repo": "SMILE-Tutorials",  # 仓库名称
+    "github_version": "main",  # 分支名称
+    "conf_py_path": "/docs/",  # 文档所在路径
+}
+
 
 
 # Add any paths that contain templates here, relative to this directory.
