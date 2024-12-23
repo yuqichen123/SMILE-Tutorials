@@ -4,3 +4,9 @@ myst-parser
 sphinx-autobuild
 recommonmark
 sphinx_markdown_tables
+# readthedocs 需要用到的主题依赖
+sphinx_rtd_theme
+pathlib
+sparc_me
+numpy
+pandas
